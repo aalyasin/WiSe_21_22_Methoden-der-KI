@@ -1,101 +1,47 @@
-# WiSe_21_22_Methoden-der-KI
-## Allgemeine Hinweise und Regeln der Hausarbeit (Variante 1 und 2)
-<details>
-  <summary></summary>
-  
-### Gruppenarbeit
-Arbeit in Gruppen von 2 Studierenden ist erlaubt. Beide Studierenden müssen auf dem Titelblatt als Autoren genannt werden. Beide Studierenden müssen in der Lage sein, Fragen zur Arbeit zu beantworten und die Arbeit zu präsentieren. Es wird erwartet, dass die Arbeit einer Gruppe etwas umfangreicher und ausführlicher ist, als bei einem Studierenden.
-### Informationen zum Unternehmen
-Die verfügbaren Informationen über das Unternehmen und seine Situation sind begrenzt. Dies wäre auch in einer realen Situation der Fall, aber in einer Fallstudie ist dieser Umstand noch stärker ausgeprägt. Sie dürfen daher Annahmen über das Unternehmen machen.
-- Die Annahmen sollen für nicht-Experten realistisch aussehen.
-- Damit die Darstellung nicht unterbrochen wird, können Sie die Annahmen in einem Anhang zusammenfassen.
-- Im Zweifelsfall fragen Sie den Dozenten.
-### Umfang
-Die schriftliche Arbeit soll 4000 Wörter lang sein. Sehen Sie diese Größe als eine Obergrenze. Wenn Sie mehr als 4000 Wörter haben (10% Toleranz), sollen Sie nicht weiter neue Ideen und Themen entwickeln sondern den Text kürzen. Wenn Sie unter 4000 Wörter sind (10% Toleranz), ist es weniger gut. Wenn Sie sich in dieser Situation auf die Anzahl der Wörter fokussieren, werden Sie unweigerlich den Text mit nichtssagenden Sätzen aufblähen. Der Platzfüller-Schreibstil fällt sofort negativ auf und bringt Ihnen nichts schon deswegen, weil Sie den Leser irritieren. Gut geschriebener Text mit weniger als 4000 Wörter Länge ist im Zweifelsfall besser.
+### Warum ist KI wichtig?
+Der Grundkonzept der KI ist über die Verarbeitung von einer großen Menge von Data, so groß dass Menschen nicht mehr arbeiten können. Da Maschine Speicherkapäzitat und Arbeitskraft viel größe als Mensch hat, lehrt man die Maschine zur Verarbeitung diese Datamenge, indem man ein Modell baut und in die Maschine implementiert.
 
-Als Anhang können Excel-Dateien akzeptiert werden.
-### Domain-Wissen
-Es besteht keine Erwartung, dass Sie Expertenwissen in der jeweiligen Branche zeigen. Sie können sich gerne informieren und das wird gern gesehen. Prinzipiell sollen das allgemeine Wissen sowie der gesunde Menschenverstand reichen.
-### Bewertung
-Die Qualität der Präsenta­tion wird mitbewertet, steht aber nicht im Fokus.
-### Literatur
-Quellenverweise erhöhen den Wert der Arbeit. Insbesondere bei Quellen aus dem Internet achten Sie auf die Qualität! Blogs von selbst-ernannten Experten und Selbstmarketing von kommerziellen Firmen sind keine zuverlässigen Informationsquellen. (Das muss unterstrichen werden, weil die Suchmaschine von Google eben diese Inhalte bevorzugt bzw. die Inhalte wurden so manipuliert, dass die Suchmaschine sie oben platziert.)
-### Abgabe
-Die Arbeit muss über Moodle eingereicht werden spätestens 20 Stunden vor dem Beginn der mündlichen Prüfungen. (Diese Frist ist notwendig, damit die Prüfenden eine Möglichkeit haben, vor der Prüfung die Arbeiten zu sehen und zu lesen.) Es wird in Moodle rechtzeitig eine entsprechende Stelle eingerichtet.
-</details>
+### Was ist KI:
+KI ist durch die Maschine die Verarbeitung von Data und damit die Antworte der Fragen. Breiter Begriff (Machine Learning) meint, dass Computer etwas gelernt haben. Enger Begriff meint, dass Computer Intelligenz vergleichbar mit den Menschen haben. Ganz enger Begriff meint Selbstbewussssein.
 
-## Vorleistung Hausarbeit Variante 1 - Stromspeicherung:
-<details>
-  <summary></summary>
+### Einsatz?
+Das Periodensystem der KI von Bitkom, z.B. Computer Vision/Bilderkennung, Sprache geschrieben (Natural Language Processing), Sprache gesprochen (Speech Recognition), usw.
 
-Die Firma StromLager GmbH ist im Stromgroßhandel tätig. Die Gründer hatten die Idee, Strom aus erneuerbaren Quellen zu speichern, wenn ein Produktionsüberschuss besteht, sodass der Strompreis gerückt ist. Der gespeicherte Strom soll verkauft werden, wenn weniger erneuerbare Energie generiert wird (wenig Sonne, wenig Wind). In den ersten 1,5 Jahren wurden die Kauf- und Verkauf-Entscheidungen intuitiv getroffen.
+### Was wirklich ist Machine Learning:
+ML bedeutet, dass Maschine die Algorithmen lernen, die auf Basis der Daten neue Algorithmen erstellen.
+2 Algorithmen, oder 2 Phase:
+- Training: Lernen, Modell erstellen
+- Predicting: Modell auf neue Situation anwenden
 
-Das Unternehmen verfügt über mehrere, auf unterschiedlichen Technologien basierende Stromspeicheranlagen. In den nächsten 2 Jahren soll die Kapazität verdoppelt werden. Um diese möglichst gewinnbringend zu betreiben, plant die Geschäftsleitung, den Ankauf und Verkauf von Strom mithilfe künstlicher Intelligenz zu steuern.
+### Was ist dann Modell?
+Modell ist eine nützliche vereinfachte Repräsentation der Welt.
 
-Ihre Aufgabe ist es, den Einsatz künstlicher Intelligenz im Unternehmen möglichst detailliert zu bewerten und zu planen. Sie sollen unter anderen an die folgenden Punkte denken:
-- Welche Daten sind nötig?
-- Woher können die Daten kommen?
-- Was sind mögliche praktische Schwierigkeiten (Lizenzen, Exklusivität der Daten, Qualität der Daten, Zuverlässigkeit der Datenversorgung).
-- Welche KI-Verfahren können angewendet werden? Dieser Punkt soll ausgearbeitet werden. Ein Verfahren zu nennen, selbst wenn es eine gute Wahl ist, reicht nicht aus.
-- Wie kann überprüft werden, ob die KI-Algorithmen effektiv sind? Das muss einmalig bei der Einführung von KI geschehen aber auch im laufenden Betrieb.
-- Was ist prinzipiell erreichbar und was nicht?
-- Organisatorische und finanzielle Vorkehrungen
-- Datenschutz
-- regulatorische Aspekte
-- möglicher Wettbewerb und Auswirkungen auf den Wettbewerb
-  
-  ### Informationen
-Die verfügbaren Informationen über das Unternehmen und seine Situation sind begrenzt. Dies wäre auch in einer realen Situation der Fall, aber in einer Fallstudie ist dieser Umstand noch stärker ausgeprägt. Sie dürfen daher Annahmen über das Unternehmen machen.
-- Die Annahmen sollen für nicht-Experten realistisch aussehen.
-- Damit die Darstellung nicht unterbrochen wird, können Sie die Annahmen in einem Anhang zusammenfassen.
-- Im Zweifelsfall fragen Sie den Dozenten.
-  ### Umfang
-Die schriftliche Arbeit soll 4000 Wörter lang sein. Sehen Sie diese Größe als eine Obergrenze. Wenn Sie mehr als 4000 Wörter haben (10% Toleranz), sollen Sie nicht weiter neue Ideen und Themen entwickeln sondern den Text kürzen. Wenn Sie unter 4000 Wörter sind (10% Toleranz), ist es weniger gut. Wenn Sie sich in dieser Situation auf die Anzahl der Wörter fokussieren, werden Sie unweigerlich den Text mit nichtssagenden Sätzen aufblähen. Der Platzfüller-Schreibstil fällt sofort negativ auf und bringt Ihnen nichts schon deswegen, weil Sie den Leser irritieren. Gut geschriebener Text mit weniger als 4000 Wörter Länge ist im Zweifelsfall besser.
+### Definition von starke und swache KI:
+- Starke (echte) KI: Die Algorithmen sind nicht „nachvollziehbar“ – können nicht manuell nachgeahmt werden. Die zu lösenden Probleme lassen sich nicht mathematisch exakt beschreiben (z.B.Personenerkennung, was Menschen nur intuitiv machen können und nicht explizit lernen) oder die mothemtische Komplexität ist prohibitiv (Spiele Schach, Go, Poker, etc)
+- Schwache KI: Algorithmen können mit etwas Aufwand manuell benutzt werden
 
-Als Anhang können Excel-Dateien akzeptiert werden.
-  ### Domain-Wissen
-Es besteht keine Erwartung, dass Sie Expertenwissen zum Stromgroßhandel oder zu Stromspeicherung zeigen müssen. Sie können sich gerne informieren und das wird gern gesehen. Prinzipiell sollen das allgemeine Wissen sowie der gesunde Menschenverstand reichen.
-  ### Bewertung
-Die Qualität der Präsenta­tion wird mitbewertet, steht aber nicht im Fokus.
-  ### Literatur
-Quellenverweise erhöhen den Wert der Arbeit. Insbesondere bei Quellen aus dem Internet achten Sie auf die Qualität! Blogs von selbst-ernannten Experten und Selbstmarketing von kommerziellen Firmen sind keine zuverlässigen Informationsquellen. (Das muss unterstrichen werden, weil die Suchmaschine von Google eben diese Inhalte bevorzugt bzw. die Inhalte wurden so manipuliert, dass die Suchmaschine sie oben platziert.) 
-  </details>
+### 3 Typen von ML:
+| Typen | Problem typ 1 | Problem typ 2 | Datentyp |
+| - | - | - | - |
+|Supervised (überwachtes)| Regression | Klassifikation | Labelled |
+|Unsupervised (unüberwachtes)| Assoziation | Clustering | Unlabelled |
+| Reinforcement (verstärkendes)| Predicting | Selbstbewusstsein | Ohne vorherdefiniert |
 
-## Vorleistung Hausarbeit Variante 2 - Dynamic Pricing Fernbus:
-<details>
-  <summary></summary>
+| Aufgabe | Erklärung | Prognose | Bemerkung |
+| - | - | - | - |
+| Klassification | Daten einer der zuvor definierten Kategorie zuordnen | Ja | Binär und Multiclass Klassification |
+| Regression | Daten einem numerischen (kontinuierlichen) Wert zuordnen | Ja | - |
+| Clustering | Kategorien festlegen und Daten einer dieser Kategorie zuordnen | Ja | Grundlage für Anomaly Detection |
 
-Die Firma GreenBus GmbH ist ein Fernbusanbieter. Das große Problem für das Unternehmen ist die ungleichmäßige Auslastung der Busse. Während etwa Freitags und vor den Ferien die Busse oft überfüllt sind, müssen sie zu anderen Zeiten beinahe leer durch das Land fahren. Um eine gleichmäßigere Auslastung der Busse zu erreichen, will die Geschäftsleitung dynamic pricing einführen. Ist es im Voraus erkennbar, dass die Nachfrage für eine bestimmte Verbindung hoch sein wird, sollen bereits die ersten Tickets (auch im Vorverkauf) teurer sein. Ein Nebenziel besteht darin, die Preise auf den Strecken und zu den Zeiten aggressiver zu gestalten, für die es besonders gute Alternativen von der Bahn gibt.
+### Feature:
+Information in den Inputdaten sind bekannt als Fearture oder Merkmale.
+| Kategorie | Beschreibung | Beispiele |
+| - | - | - |
+| Ordinal | Einzelne Werte mit Reihenfolge. Können numerisch oder nicht numerisch sein. | Schulnoten, Farben, Steuerklassen*, Buchstabe |
+| Nominal | Einzelne Werte ohne Rangordnung und ohne Distanz | Geschlecht, Familienstand |
+| Kardinal | Numerische Werte mit Reihenfolge und Abstandmetrik. Können ganze Zahlen oder Gleitkommazahlen sein. Oft mit einer Einheit (Grad, Meter, Kilogramm, Euro, etc.) | Alter, Entfernung, Geld, Zeit, Wochentage*, Anzahl |
+| Besonder | Texte (mit und ohne Quellentext), Images,  Musik/Aufzeichnungen, Videos | - |
 
-Perspektivisch will GreenBus auf die operativen Situationen im Fernverkehr in real time reagieren. Baustellen und Staus auf der Autobahn, kurzfristige Streckensperrungen und Zugausfälle bei der Bahn könnten alle in die Berechnung der Preise einfließen.
+**One-hot-
 
-Ungefähr gleichzeitig mit der Einführung von dynamic pricing will GreenBus die gesamte Busflotte standardisieren und die Busse in drei Kategorien mit unterschiedlichen Größen aufteilen (angefangen von Minibussen mit 12 Sitzen bis hin zu Doppeldecker).
-
-Ihre Aufgabe ist es, den Einsatz künstlicher Intelligenz für die beschriebene Zielsetzung möglichst detailliert zu bewerten und zu planen. Sie sollen unter anderen an die folgenden Punkte denken:
-- Welche Daten sind nötig?
-- Woher können die Daten kommen?
-- Was sind mögliche praktische Schwierigkeiten (Lizenzen, Exklusivität der Daten, Qualität der Daten, Zuverlässigkeit der Datenversorgung).
-- Welche KI-Verfahren können angewendet werden? Dieser Punkt soll ausgearbeitet werden. Ein Verfahren zu nennen, selbst wenn es eine gute Wahl ist, reicht nicht aus.
-- Wie kann überprüft werden, ob die KI-Algorithmen effektiv sind? Das muss einmalig bei der Einführung von KI geschehen aber auch im laufenden Betrieb.
-- Was ist prinzipiell erreichbar und was nicht?
-- In welchen Stufen kann die Einführung geplant werden?
-- Organisatorische und finanzielle Vorkehrungen
-- Datenschutz
-- ethische und regulatorische Aspekte
-- möglicher Wettbewerb und Auswirkungen auf den Wettbewerb und Wettbewerber
-### Informationen
-Die verfügbaren Informationen über das Unternehmen und seine Situation sind begrenzt. Dies wäre auch in einer realen Situation der Fall, aber in einer Fallstudie ist dieser Umstand noch stärker ausgeprägt. Sie dürfen daher Annahmen über das Unternehmen machen.
-- Die Annahmen sollen für nicht-Experten realistisch aussehen.
-- Damit die Darstellung nicht unterbrochen wird, können Sie die Annahmen in einem Anhang zusammenfassen.
-- Im Zweifelsfall fragen Sie den Dozenten.
-### Umfang
-Die schriftliche Arbeit soll 4000 Wörter lang sein. Sehen Sie diese Größe als eine Obergrenze. Wenn Sie mehr als 4000 Wörter haben (10% Toleranz), sollen Sie nicht weiter neue Ideen und Themen entwickeln sondern den Text kürzen. Wenn Sie unter 4000 Wörter sind (10% Toleranz), ist es weniger gut. Wenn Sie sich in dieser Situation auf die Anzahl der Wörter fokussieren, werden Sie unweigerlich den Text mit nichtssagenden Sätzen aufblähen. Der Platzfüller-Schreibstil fällt sofort negativ auf und bringt Ihnen nichts schon deswegen, weil Sie den Leser irritieren. Gut geschriebener Text mit weniger als 4000 Wörter Länge ist im Zweifelsfall besser.
-
-Als Anhang können Excel-Dateien akzeptiert werden.
-### Domain-Wissen
-Es besteht keine Erwartung, dass Sie Expertenwissen beim Thema öffentlicher Personenfernverkehr zeigen müssen. Sie können sich gerne informieren und das wird gern gesehen. Prinzipiell sollen das allgemeine Wissen sowie der gesunde Menschenverstand reichen.
-### Bewertung
-Die Qualität der Präsenta­tion wird mitbewertet, steht aber nicht im Fokus.
-### Literatur
-Quellenverweise erhöhen den Wert der Arbeit. Insbesondere bei Quellen aus dem Internet achten Sie auf die Qualität! Blogs von selbst-ernannten Experten und Selbstmarketing von kommerziellen Firmen sind keine zuverlässigen Informationsquellen. (Das muss unterstrichen werden, weil die Suchmaschine von Google eben diese Inhalte bevorzugt bzw. die Inhalte wurden so manipuliert, dass die Suchmaschine sie oben platziert.) 
-  </details>
+Optimizer:
