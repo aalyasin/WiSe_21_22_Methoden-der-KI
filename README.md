@@ -69,3 +69,20 @@ Was ist ...?
  Gewichte, Parameter und Hyperparameter
 
  Gradientenabstieg
+
+ Lernrate:
+
+ Genauigkeit, Bias:
+
+ binäre Klassifikation: wie soll die Verlustfunktion gesteltet werden?
+  was sind die wirtschaftlichen kosten und konsequenzen einer falschen klassifikation?
+    -verdachtsfälle, die sich nicht bestätigen lassen
+    -problemfälle, die nicht entdeckt wurden
+  Im Einzelfaää sind die Konsequenzen sehr unterschiedlich (Eine Standartformel wird dem Einzelfall     nicht gerecht.
+  Woche 3 seite 18
+
+ Überanpassung(Overfitting):
+
+ Regularisierung:
+
+ Standardisierung:
