@@ -45,3 +45,26 @@ Information in den Inputdaten sind bekannt als Fearture oder Merkmale.
 **One-hot-
 
 Optimizer:
+
+Was ist ...?
+ Verlustfunktion:Abweichung von Zielzustand numerisch darstellen
+  Lernen = Modell trainieren = Modell anpassen, um die Abweichung vom Ziel zu minimieren
+
+ Optimierung:
+
+ Überwachtes Lernen:
+
+ Trainieren:
+
+ Aktivierungsfunktion:
+
+ Neuronales Netz:
+
+ Regression: Daten einem numerischen ( Kontinuierlichen ) wert zuordnen.
+
+ Klassifikation:
+  Daten einer der zuvor definierten Kategorie zuordnen ( kann auch prognose sein ).
+  
+ Gewichte, Parameter und Hyperparameter
+
+ Gradientenabstieg
