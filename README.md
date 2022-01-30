@@ -14,7 +14,7 @@ ML bedeutet, dass Maschine die Algorithmen lernen, die auf Basis der Daten neue 
 - Predicting: Modell auf neue Situation anwenden
 
 ### Was ist dann Modell?
-Modell ist eine nützliche vereinfachte Repräsentation der Welt.
+Modell ist eine nützliche vereinfachte Repräsentation der Welt. Ein Machine Learning-Modell ist eine Datei, die darauf trainiert wurde, bestimmte Arten von Mustern zu erkennen. Sie trainieren ein Modell anhand von Daten, indem Sie einen Algorithmus bereitstellen, mit dem diese Daten analysiert und zum Lernen verwendet werden können.
 
 ### Definition von starke und swache KI:
 - Starke (echte) KI: Die Algorithmen sind nicht „nachvollziehbar“ – können nicht manuell nachgeahmt werden. Die zu lösenden Probleme lassen sich nicht mathematisch exakt beschreiben (z.B.Personenerkennung, was Menschen nur intuitiv machen können und nicht explizit lernen) oder die mothemtische Komplexität ist prohibitiv (Spiele Schach, Go, Poker, etc)
@@ -42,7 +42,37 @@ Information in den Inputdaten sind bekannt als Fearture oder Merkmale.
 | Kardinal | Numerische Werte mit Reihenfolge und Abstandmetrik. Können ganze Zahlen oder Gleitkommazahlen sein. Oft mit einer Einheit (Grad, Meter, Kilogramm, Euro, etc.) | Alter, Entfernung, Geld, Zeit, Wochentage*, Anzahl |
 | Besonder | Texte (mit und ohne Quellentext), Images,  Musik/Aufzeichnungen, Videos | - |
 
-**One-hot-
+**One-hot-Kodierung für nominale Werte ist ein Vektor mit einer 1 und sonst nur 0
+
+### Verlustfunktion:
+- Abweichung von Zielzustand numerisch darstellen, damit wird bewertet, ob das Modell durch die Modifikation besser wird.
+- Das Lernen ist ein Vorgang zum Training und zur Anpassung des Modells, um die Abweichung vom Ziel zu minimieren
+- Bsp.: Für Regression ist die quadratische Entfernung.
+
+### Binäre Klassifikation:
+- Ein besonderes Typ von Klassifikation, wenn das Problem nur 2 Ergebnisse hat, m.a.W. das Modell 2 Ausgang hat.
+- Auch eine Methode zur Bewertung eines Modells durch die Modifikation (Fitnessfunktion)
+- In Tabellenform:
+
+| - | echte Wahrheit | echte Falschheit |
+| - | - | - |
+| vorhergesagte Wahrheit (Positiv)| True Positiv | False Positiv |
+| vorhergesagte Falschheit (Negativ)| False Negativ | True Negativ |
+
+Je weniger Fälle in einer Kategorie, desto geringer die statistische Zuverlässigkeit.
+
+### Overfitting/Überanpassung:
+| Symptom | Beschreibung |
+| - | - |
+| 1 | Das Modell ist komplizierter als die Umstände hergeben, als 'angemessen' ist |
+| 2 | Das Modell hat mehr Parameter als die Datenmenge hergibt |
+| 3 | Unwichtige oder zufällige Details fließend ins Modell ein |
+| 4 | Das Modell funktioniert gut oder 'zu gut' auf bestimmten Daten (trainierte Daten) aber viel schlechter auf neuen Daten |
+| 5 | Das Modell hat bestimmte Situation 'aufwendig' gelernt, kann aber das Prinzip nicht begreifen|
+
+**Probleme der Überanpassung: Eine präzise mathematische Definition fehlt, nur intuitive Sicht auf das Problem.
+
+### Kreuzvalidierung:
 
 Optimizer:
 
