@@ -47,6 +47,7 @@ Information in den Inputdaten sind bekannt als Fearture oder Merkmale.
 Optimizer:
 
 Was ist ...?
+
  Verlustfunktion:Abweichung von Zielzustand numerisch darstellen
   Lernen = Modell trainieren = Modell anpassen, um die Abweichung vom Ziel zu minimieren
 
